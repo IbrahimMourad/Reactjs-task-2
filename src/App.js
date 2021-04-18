@@ -14,10 +14,10 @@ const App = () => {
       <video
         src="myVideo.mp4"
         type="video/mp4"
-        width="600"
-        height="300"
+        width="324"
+        height="240"
         controls="controls"
-        autoplay="true"
+        autoPlay={true}
       />
     </>
   );
